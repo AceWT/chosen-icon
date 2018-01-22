@@ -40,7 +40,7 @@
 
 
             // 2.1 add Class for specific styling
-            $chosen = $select.next().addClass('chosenIcon-container');
+            var $chosen = $select.next('.chosen-container').addClass('chosenIcon-container');
 
 
             // 3. add data in lis with icon name
